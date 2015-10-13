@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>6</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,6 +51,9 @@
   <ItemGroup>
     <Compile Include="ConsoleReaderActor.cs" />
     <Compile Include="ConsoleWriterActor.cs" />
+    <Compile Include="Messages\ErrorMessages.cs" />
+    <Compile Include="Messages\SuccessMessages.cs" />
+    <Compile Include="Messages\SystemMessages.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
